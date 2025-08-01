@@ -2,9 +2,9 @@ name: C++ Tests
 
 on:
   push:
-    branches: [ main, master,sec ]
+    branches: [ main, master, sec ]
   pull_request:
-    branches: [ main, master,sec ]
+    branches: [ main, master, sec ]
 
 jobs:
   test:
@@ -16,15 +16,21 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y build-essential libgtest-dev libgmock-dev
+        sudo apt-get install -y build-essential cmake
+        
+    - name: Install Google Test
+      run: |
+        cd /tmp
+        git clone https://github.com/google/googletest.git
+        cd googletest
+        mkdir build
+        cd build
+        cmake ..
+        make
+        sudo make install
         
     - name: Build and run tests
       run: |
         cd tests
         g++ -std=c++17 -Wall test_example.cpp -lgtest -lgtest_main -pthread -o test_runner
         ./test_runner
-        
-    #- name: Build main application
-    #  run: |
-    #    make clean
-    #    make
