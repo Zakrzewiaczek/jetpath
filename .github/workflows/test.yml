@@ -2,9 +2,9 @@ name: C++ Tests
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master,sec ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main, master,sec ]
 
 jobs:
   test:
