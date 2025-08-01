@@ -39,39 +39,39 @@ all: $(APPNAME)
 
 # Builds the main app (only from main.cpp)
 $(APPNAME): $(MAIN_OBJ)
-    $(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
 
 # Builds and runs tests
 test: test_runner
-    ./test_runner
+	./test_runner
 
 test_runner: $(TEST_OBJ)
-    $(CC) $(CXXFLAGS) -o $@ $^ -lgtest -lgtest_main -pthread
+	$(CC) $(CXXFLAGS) -o $@ $^ -lgtest -lgtest_main -pthread
 
 # Runs the main application
 run: $(APPNAME)
-    ./$(APPNAME)
+	./$(APPNAME)
 
 # Creates the dependency rules
 %.d: %.cpp
-    @$(CC) $(CXXFLAGS) $< -MM -MT $(@:.d=.o) >$@
+	@$(CC) $(CXXFLAGS) $< -MM -MT $(@:.d=.o) >$@
 
 # Includes all .h files
 -include $(DEP)
 
 # Building rule for main.cpp
 %.o: %.cpp
-    $(CC) $(CXXFLAGS) -o $@ -c $<
+	$(CC) $(CXXFLAGS) -o $@ -c $<
 
 # Building rule for test files
 test_%.o: $(TESTDIR)/%.cpp
-    $(CC) $(CXXFLAGS) -o $@ -c $<
+	$(CC) $(CXXFLAGS) -o $@ -c $<
 
 ################### Cleaning rules for Unix-based OS ###################
 # Cleans complete project
 .PHONY: clean
 clean:
-    $(RM) $(DELOBJ) $(DEP) $(APPNAME) test_runner *.d
+	$(RM) $(DELOBJ) $(DEP) $(APPNAME) test_runner *.d
 ########################################################################
 ####################### Makefile Template ##############################
 ########################################################################
@@ -144,27 +144,27 @@ cleandepw:
 # Cleans only all files with the extension .d
 .PHONY: cleandep
 cleandep:
-    $(RM) $(DEP)
+	$(RM) $(DEP)
 
 #################### Cleaning rules for Windows OS #####################
 # Cleans complete project
 .PHONY: cleanw
 cleanw:
-    $(DEL) $(DELOBJ) $(DEP) $(APPNAME)$(EXE) test_runner$(EXE)
+	$(DEL) $(DELOBJ) $(DEP) $(APPNAME)$(EXE) test_runner$(EXE)
 
 # Cleans only all files with the extension .d
 .PHONY: cleandepw
 cleandepw:
-    $(DEL) $(DEP)
+	$(DEL) $(DEP)
 
 .PHONY: all test run
 
 test_all:
-    @cd tests && \
-    for test_file in *.cpp; do \
-        echo "Testing $$test_file"; \
-        g++ -std=c++17 -Wall "$$test_file" -lgtest -lgtest_main -pthread -o "$${test_file%.cpp}_runner"; \
-        "./$${test_file%.cpp}_runner"; \
-    done
+	@cd tests && \
+	for test_file in *.cpp; do \
+	    echo "Testing $$test_file"; \
+	    g++ -std=c++17 -Wall "$$test_file" -lgtest -lgtest_main -pthread -o "$${test_file%.cpp}_runner"; \
+	    "./$${test_file%.cpp}_runner"; \
+	done
 
 .PHONY: test_all
