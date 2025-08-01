@@ -16,27 +16,15 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y build-essential cmake
+        sudo apt-get install -y build-essential libgtest-dev libgmock-dev
         
-    - name: Create build directory
-      run: mkdir build
-        
-    - name: Configure CMake
+    - name: Build and run tests
       run: |
-        cd build
-        cmake ..
+        cd tests
+        g++ -std=c++17 -Wall test_main.cpp -lgtest -lgtest_main -pthread -o test_runner
+        ./test_runner
         
-    - name: Build project
+    - name: Build main application
       run: |
-        cd build
+        make clean
         make
-        
-    - name: Run tests
-      run: |
-        cd build
-        ctest --verbose
-        
-    - name: Run main application
-      run: |
-        cd build
-        ./jetpath
