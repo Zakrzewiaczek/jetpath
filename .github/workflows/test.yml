@@ -1,0 +1,30 @@
+name: C++ Tests
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y build-essential libgtest-dev libgmock-dev
+        
+    - name: Build and run tests
+      run: |
+        cd tests
+        g++ -std=c++17 -Wall test_example.cpp -lgtest -lgtest_main -pthread -o test_runner
+        ./test_runner
+        
+    - name: Build main application
+      run: |
+        make clean
+        make
