@@ -16,23 +16,15 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y build-essential cmake
         sudo apt-get install -y build-essential libgtest-dev libgmock-dev
-        
-    - name: Install Google Test
-      run: |
-        cd /tmp
-        git clone https://github.com/google/googletest.git
-        cd googletest
-        mkdir build
-        cd build
-        cmake ..
-        make
-        sudo make install
-        sudo ldconfig
         
     - name: Build and run tests
       run: |
         cd tests
         g++ -std=c++17 -Wall test_example.cpp -I/usr/local/include -L/usr/local/lib -lgtest -lgtest_main -pthread -o test_runner
         ./test_runner
+        
+    - name: Build main application
+      run: |
+        make clean
+        make
