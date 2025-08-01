@@ -21,7 +21,7 @@ jobs:
     - name: Build and run tests
       run: |
         cd tests
-        g++ -std=c++17 -Wall test_main.cpp -lgtest -lgtest_main -pthread -o test_runner
+        g++ -std=c++17 -Wall test_example.cpp -lgtest -lgtest_main -pthread -o test_runner
         ./test_runner
         
     #- name: Build main application
