@@ -19,7 +19,7 @@ jobs:
         sudo apt-get install -y build-essential libgtest-dev libgmock-dev
         
     - name: Build and run tests
-      run: make test_all
+      run: test_all
         
     - name: Build main application
       run: |
