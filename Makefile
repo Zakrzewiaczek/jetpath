@@ -160,12 +160,11 @@ cleandepw:
 .PHONY: all test run
 
 test_all:
-    ls -la
-    #@cd tests && \
-    #for test_file in *.cpp; do \
-    #    echo "Testing $$test_file"; \
-    #    g++ -std=c++17 -Wall "$$test_file" -lgtest -lgtest_main -pthread -o "$${test_file%.cpp}_runner"; \
-    #    "./$${test_file%.cpp}_runner"; \
-    #done
+    @cd tests && \
+    for test_file in *.cpp; do \
+        echo "Testing $$test_file"; \
+        g++ -std=c++17 -Wall "$$test_file" -lgtest -lgtest_main -pthread -o "$${test_file%.cpp}_runner"; \
+        "./$${test_file%.cpp}_runner"; \
+    done
 
 .PHONY: test_all
