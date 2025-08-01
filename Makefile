@@ -36,30 +36,30 @@ all: $(APPNAME)
 
 # Builds the main app (only from main.cpp)
 $(APPNAME): $(MAIN_OBJ)
-    $(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
 
 # Builds and runs tests
 test: test_runner
-    ./test_runner
+	./test_runner
 
 test_runner: $(TEST_OBJ)
-    $(CC) $(CXXFLAGS) -o $@ $^ -lgtest -lgtest_main -pthread
+	$(CC) $(CXXFLAGS) -o $@ $^ -lgtest -lgtest_main -pthread
 
 # Runs the main application
 run: $(APPNAME)
-    ./$(APPNAME)
+	./$(APPNAME)
 
 # Building rule for main.cpp
 %.o: %.cpp
-    $(CC) $(CXXFLAGS) -o $@ -c $<
+	$(CC) $(CXXFLAGS) -o $@ -c $<
 
 # Building rule for test files
 test_%.o: $(TESTDIR)/%.cpp
-    $(CC) $(CXXFLAGS) -o $@ -c $<
+	$(CC) $(CXXFLAGS) -o $@ -c $<
 
 # Cleans complete project
 .PHONY: clean
 clean:
-    $(RM) $(DELOBJ) $(APPNAME) test_runner *.d
+	$(RM) $(DELOBJ) $(APPNAME) test_runner *.d
 
 .PHONY: all test run clean
