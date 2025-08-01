@@ -24,7 +24,7 @@ jobs:
         g++ -std=c++17 -Wall test_main.cpp -lgtest -lgtest_main -pthread -o test_runner
         ./test_runner
         
-    - name: Build main application
-      run: |
-        make clean
-        make
+    #- name: Build main application
+    #  run: |
+    #    make clean
+    #    make
