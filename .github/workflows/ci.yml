@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  pull_request:
+    branches: [ main, master, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Install dependencies
+      run: |
+        sudo apt update
+        sudo apt install -y cmake build-essential libgtest-dev libgmock-dev
+        
+    - name: Build
+      run: |
+        mkdir build
+        cd build
+        cmake ..
+        make
+        
+    - name: Run tests
+      run: |
+        cd build
+        ./jetpath_tests
