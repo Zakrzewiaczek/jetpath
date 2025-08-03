@@ -17,7 +17,12 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y build-essential cmake git
-        
+
+    - name: Run tests
+      run: |
+        g++ -std=c++17 -o testCommandManager tests/testCommandManager.cpp -lgtest -lgtest_main -pthread
+        ./testCommandManager
+    
     - name: Build project
       run: |
         mkdir build
@@ -25,10 +30,7 @@ jobs:
         cmake ..
         make
         
-    - name: Run tests
-      run: |
-        g++ -std=c++17 -o testCommandManager tests/testCommandManager.cpp -lgtest -lgtest_main -pthread
-        ./testCommandManager
+    
 
     - name: Test application (headless)
       run: |
