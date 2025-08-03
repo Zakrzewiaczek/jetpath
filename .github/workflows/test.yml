@@ -20,9 +20,10 @@ jobs:
 
     - name: Run tests
       run: |
-        g++ -std=c++17 -o testCommandManager tests/testCommandManager.cpp -lgtest -lgtest_main -pthread
-        ./testCommandManager
-    
+          cd tests
+          g++ -std=c++17 -Wall testCommandManager.cpp -lgtest -lgtest_main -pthread -o testCommandManager
+          ./testCommandManager
+
     - name: Build project
       run: |
         mkdir build
