@@ -8,16 +8,13 @@
 class CommandManagerTest : public ::testing::Test {
 protected:
     void SetUp() override {
-        // Stwórz katalog testowy
         test_dir = "/tmp/jetpath_test";
         std::filesystem::create_directories(test_dir);
-        
-        // Stwórz pliki testowe
+
         createTestFiles();
     }
     
     void TearDown() override {
-        // Wyczyść pliki testowe
         if (std::filesystem::exists(test_dir)) {
             std::filesystem::remove_all(test_dir);
         }
@@ -28,31 +25,26 @@ protected:
         std::ofstream txt_file(test_dir + "/test.txt");
         txt_file << "Hello World!\nThis is a test file.";
         txt_file.close();
-        
-        // Plik C++
+
         std::ofstream cpp_file(test_dir + "/main.cpp");
         cpp_file << "#include <iostream>\nint main() { return 0; }";
         cpp_file.close();
-        
-        // Plik Python
+
         std::ofstream py_file(test_dir + "/script.py");
         py_file << "print('Hello from Python!')";
         py_file.close();
-        
-        // Plik bez rozszerzenia
+
         std::ofstream no_ext_file(test_dir + "/README");
         no_ext_file << "This is a README file";
         no_ext_file.close();
-        
-        // Katalog
+
         std::filesystem::create_directory(test_dir + "/subdir");
         
-        // Plik w podkatalogu
         std::ofstream sub_file(test_dir + "/subdir/nested.log");
         sub_file << "Log entry 1\nLog entry 2";
         sub_file.close();
         
-        // Czekaj chwilę żeby pliki się zapisały
+
         std::this_thread::sleep_for(std::chrono::milliseconds(100));
     }
     
@@ -68,7 +60,7 @@ TEST_F(CommandManagerTest, GetAllFiles_ReturnsFiles) {
     // Sprawdź czy zwrócone obiekty mają wypełnione pola
     bool found_valid_file = false;
     for (const auto& file : files) {
-        if (!file.path.empty() && !file.name.empty()) {
+        if (!   file.path.empty() && !file.name.empty()) {
             found_valid_file = true;
             break;
         }
