@@ -18,6 +18,8 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y build-essential cmake git
         sudo apt-get install -y build-essential libgtest-dev libgmock-dev
+        sudo apt-get install -y plocate mlocate
+        sudo updatedb
 
     - name: Run tests
       run: |
