@@ -63,6 +63,7 @@
         "format": "cpp",
         "span": "cpp",
         "csignal": "cpp",
-        "codecvt": "cpp"
+        "codecvt": "cpp",
+        "fstream": "cpp"
     }
 }

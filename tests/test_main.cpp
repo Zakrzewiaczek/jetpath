@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-// Implementacje funkcji dla testów (bez main)
+
 int add(int a, int b) {
     return a + b;
 }
@@ -13,7 +13,6 @@ bool isEven(int number) {
 }
 
 
-// Testy funkcji multiply
 TEST(MathTest, MultiplyTest) {
     EXPECT_EQ(multiply(2, 3), 6);
     EXPECT_EQ(multiply(-2, 3), -6);
