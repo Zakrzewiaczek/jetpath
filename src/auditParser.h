@@ -23,15 +23,9 @@
 #define OUTPUT_PATH "../tests/testAssets/testLog.txt"   
 
 struct AuditEntry {
-    std::string comm;
-    std::string exe;
-    std::string type;
-    std::string name;   // path with name the file or derectory
-    std::string nametype; // type of operation (CREATE, DELETE, etc.)
-    std::string OUID;   // Owner User ID
-    std::string OGID;   // Owner Group ID
-    std::string cwd;    // File or directory name where command was executed
-    std::time_t timestamp; // Time when the event occurred
+    std::string path;
+    std::string name;
+    std::string operation;
 };
 
 
@@ -75,7 +69,7 @@ class AuditParser {
                     //fflush(fp_out);
                 } else {
 
-                    sleep(1);
+                    //sleep(1);
                     clearerr(fp_in);  
                 }
                 
@@ -86,23 +80,52 @@ class AuditParser {
                     std::istringstream stream(data);
                     std::string line;
                     // audit entry
-                    std::string cwd;
-                    std::time_t timestamp;
-                    std::string nametype;
+                    std::string path;
                     std::string name;
-                    std::string OUID;
-                    std::string OGID;
+                    std::string operation;
                     
                     while (std::getline(stream, line)) {
                         if (!line.empty()) {
-                            std::string newLine =line + "\n";
-                            if (fwrite(newLine.c_str(), 1, newLine.length(), fp_out)) {
-                                perror("fwrite output");
-                            } else {
-                                fflush(fp_out);  // Natychmiast zapisz na dysk
-                                std::cout << "✅ Zapisano: " << nametype << " " << name << std::endl;
+                            //line = "type=PATH msg=audit(1754554010.721:135744): item=1 name=\"/dev/shm/.org.chromium.Chromium.gUA6SW\" inode=13197 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0 OUID=\"stas\" OGID=\"stas\"";
+                            if(line.find("type=PATH")==0){
+                                std::cout<<"line : "<<line<<std::endl;
+                                if(line.find("nametype=PARENT")!= std::string::npos){
+                                    std::cout<<"wejscie do ifa PARENT"<<std::endl;
+                                    int start = line.find("name=") + 5;
+                                    int end = line.find("inode=") - 2;
+                                    path = line.substr(start, end-start);
+                                }
+                                else if(line.find("nametype=CREATE") != std::string::npos or line.find("nametype=DELETE") != std::string::npos or line.find("nametype=RENAME") != std::string::npos){
+                                    std::cout<<line<<std::endl;
+                                    if(line.find("CREATE") != std::string::npos){
+                                        operation = "CREATE";
+                                    }
+                                    else if(line.find("DELETE") != std::string::npos){
+                                        operation = "DELETE";
+                                    }
+                                    else if(line.find("RENAME") != std::string::npos){
+                                        operation = "RENAME";
+                                    }
+                                    int startName = line.find("name=") + 5;
+                                    int endName = line.find("inode=") - 2;
+                                    name = line.substr(startName, endName-startName);
+                                    
+                                    std::string newLine =name + ";" + operation + ";" + path + "\n";
+                                    std::cout << "Zapisuję linię: " << newLine << std::endl;
+                                    //sleep(1000000000000000);
+                                    if (fwrite(newLine.c_str(), 1, newLine.length(), fp_out)) {
+                                        perror("fwrite output");
+                                    } else {
+                                        fflush(fp_out);  // Natychmiast zapisz na dysk
+                                        //std::cout << "✅ Zapisano: " << nametype << " " << name << std::endl;
+                                    }
+
+                                }
                             }
+                            
+
                             /*
+                            
                             if(line.find("type=CWD")==0){
                                 cwd = line.substr(line.find("cwd=") + 4,line.find("msg=")-1);
 

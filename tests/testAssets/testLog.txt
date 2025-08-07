@@ -1,608 +1,455 @@
-type=SYSCALL msg=audit(1754492595.091:73327): arch=c000003e syscall=257 success=yes exit=4 a0=ffffff9c a1=5bd8c33a1038 a2=441 a3=1b6 items=2 ppid=3354 pid=47041 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=3 comm="jetpath" exe="/home/stas/dev/c++/jetpath/build/jetpath" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.091:73327): cwd="/home/stas/dev/c++/jetpath/build"
-type=PATH msg=audit(1754492595.091:73327): item=0 name="../tests/testAssets/" inode=6426592 dev=08:02 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PATH msg=audit(1754492595.091:73327): item=1 name="../tests/testAssets/testLog.txt" inode=6430432 dev=08:02 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 ca
-p_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492595.091:73327): proctitle="./jetpath"
-type=SYSCALL msg=audit(1754492595.111:73328): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df4027754c0 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.111:73328): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492595.111:73328): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492595.111:73328): item=1 name="/dev/shm/.org.chromium.Chromium.Oy0Mr7" inode=9475 dev=00:1b mode=0100600 ouid=1000 ogid=1
-000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492595.111:73328): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492595.111:73329): arch=c000003e syscall=87 success=yes exit=0 a0=3df4027754c0 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.111:73329): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492595.111:73329): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492595.111:73329): item=1 
-name="/dev/shm/.org.chromium.Chromium.Oy0Mr7" inode=9475 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492595.111:73329): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492595.111:73330): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df4027754c0 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.111:73330): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492595.111:73330): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_
-fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492595.111:73330): item=1 name="/dev/shm/.org.chromium.Chromium.mRI008" inode=9476 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492595.111:73330): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492595.112:73331): arch=c000003e syscall=87 success=yes exit=0 a0=3df4027754c0 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.112:73331): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492595.112:73331): item=0 name="/dev/shm
-/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492595.112:73331): item=1 name="/dev/shm/.org.chromium.Chromium.mRI008" inode=9476 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492595.112:73331): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492595.112:73332): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df4027754c0 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.112:7
-3332): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492595.112:73332): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492595.112:73332): item=1 name="/dev/shm/.org.chromium.Chromium.GnjW4k" inode=9477 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492595.112:73332): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492595.113:73333): arch=c000003e syscall=87 success=yes exit=0 a0=3df4027754c0 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" S
-UID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.113:73333): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492595.113:73333): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492595.113:73333): item=1 name="/dev/shm/.org.chromium.Chromium.GnjW4k" inode=9477 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492595.113:73333): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492595.326:73334): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf79c0e1e0 a1=88000 a2=1b6 a3=1ed3b items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensio
-ns/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.326:73334): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.326:73334): item=0 name="/usr/include/c++/13/fstream" inode=8922008 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.326:73334): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.327:73335): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf79c11bd0 a1=88000 a2=1b6 a3=1ed3b items
-=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.327:73335): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.327:73335): item=0 name="/usr/include/c++/13/filesystem" inode=8922005 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.327:73335): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D35434536
-2D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.327:73336): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf79c0ff40 a1=88000 a2=1b6 a3=0 items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.327:73336): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.327:73336): item=0 name="/usr/include/c++/13/ctime" inode=8921583 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.327:73336): proctitle=2F686F6D652F737461732F2E767363
-6F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.327:73337): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf79c119e0 a1=88000 a2=1b6 a3=1ed3b items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.327:73337): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.327:73337): item=0 name="/usr/include/c++/13/chrono" inode=8921559 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00
- nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.327:73337): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.327:73338): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf79affa30 a1=88000 a2=1b6 a3=1ed3b items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.327:73338): cwd="/home/stas/.vscode/extensions/ms-vs
-code.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.327:73338): item=0 name="/usr/include/c++/13/algorithm" inode=8921380 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.327:73338): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.327:73339): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf78fc2400 a1=88000 a2=1b6 a3=1ed3b items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="
-stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.327:73339): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.327:73339): item=0 name="/usr/include/x86_64-linux-gnu/sys/stat.h" inode=8682503 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.327:73339): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.328:73340): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf78ebed30 a1=88000 a2=1b6 a3=13 items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgi
-d=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.328:73340): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.328:73340): item=0 name="/usr/include/pwd.h" inode=8268584 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.328:73340): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.328:73341): arch=c000003e syscall=2
- success=yes exit=14 a0=7ecf78ec0980 a1=88000 a2=1b6 a3=1ed3b items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.328:73341): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.328:73341): item=0 name="/usr/include/dirent.h" inode=8268387 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.328:73341): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F63707074
-6F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.328:73342): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf78ec0fe0 a1=88000 a2=1b6 a3=1ed3b items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.328:73342): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.328:73342): item=0 name="/usr/include/fcntl.h" inode=8268455 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(175449
-2595.328:73342): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.357:73343): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf79c0e1e0 a1=88000 a2=1b6 a3=1ee57 items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.357:73343): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.357:73343): item=0 name="/usr/include/c++/13/fstream" ino
-de=8922008 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.357:73343): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.358:73344): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf79c11bd0 a1=88000 a2=1b6 a3=13 items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(17544925
-95.358:73344): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.358:73344): item=0 name="/usr/include/c++/13/filesystem" inode=8922005 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.358:73344): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.358:73345): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf79c0ff40 a1=88000 a2=1b6 a3=0 items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vs
-code key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.358:73345): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.358:73345): item=0 name="/usr/include/c++/13/ctime" inode=8921583 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.358:73345): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.358:73346): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf79c119e0 a1=88000 a2=1b6 a3=1ee57 items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=
-1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.358:73346): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.358:73346): item=0 name="/usr/include/c++/13/chrono" inode=8921559 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.358:73346): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audi
-t(1754492595.359:73347): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf79affa30 a1=88000 a2=1b6 a3=1ee57 items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.359:73347): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.359:73347): item=0 name="/usr/include/c++/13/algorithm" inode=8921380 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.359:73347): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F
-6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.359:73348): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf78fc2400 a1=88000 a2=1b6 a3=1ee57 items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.359:73348): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.359:73348): item=0 name="/usr/include/x86_64-linux-gnu/sys/stat.h" inode=8682503 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_
-fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.359:73348): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.360:73349): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf78ebed30 a1=88000 a2=1b6 a3=1ee57 items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.360:73349): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH ms
-g=audit(1754492595.360:73349): item=0 name="/usr/include/pwd.h" inode=8268584 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.360:73349): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.360:73350): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf78ec0980 a1=88000 a2=1b6 a3=1ee57 items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="
-stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.360:73350): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.360:73350): item=0 name="/usr/include/dirent.h" inode=8268387 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.360:73350): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.360:73351): arch=c000003e syscall=2 success=yes exit=14 a0=7ecf78ec0fe0 a1=88000 a2=1b6 a3=13 items=1 ppid=2039 pid=27799 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="cpptools-srv" exe="/home/stas/.vscode/extensions
-/ms-vscode.cpptools-1.26.3-linux-x64/bin/cpptools-srv" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=open AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.360:73351): cwd="/home/stas/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64/bin"
-type=PATH msg=audit(1754492595.360:73351): item=0 name="/usr/include/fcntl.h" inode=8268455 dev=08:02 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PROCTITLE msg=audit(1754492595.360:73351): proctitle=2F686F6D652F737461732F2E7673636F64652F657874656E73696F6E732F6D732D7673636F64652E637070746F6F6C732D312E32362E332D6C696E75782D7836342F62696E2F637070746F6F6C732D737276003237373330007B41384634444641382D354345362D344145462D384232452D3333303238394138454341457D
-type=SYSCALL msg=audit(1754492595.737:73352): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df402775440 a2=c2 a3=180 items=2 ppi
-d=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.737:73352): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492595.737:73352): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492595.737:73352): item=1 name="/dev/shm/.org.chromium.Chromium.gPxwf4" inode=9478 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492595.737:73352): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492595.738:733
-53): arch=c000003e syscall=87 success=yes exit=0 a0=3df402775440 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492595.738:73353): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492595.738:73353): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492595.738:73353): item=1 name="/dev/shm/.org.chromium.Chromium.gPxwf4" inode=9478 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492595.738:73353): 
-proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492596.845:73354): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df4027753c0 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492596.845:73354): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492596.845:73354): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492596.845:73354): item=1 name="/dev/shm/.org.chromium.Chromium.7QbAjf" inode=9479 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492596.845:73354): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492596.845:73355): arch=c000003e syscall=87 success=yes exit=0 a0=3df4027753c0 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492596.845:73355): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492596.845:73355): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492596.845:73355): item=1 name="/dev/shm/.org.chromium.Chromium.7QbAjf" inode=9479 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=0
-0:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492596.845:73355): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492597.003:73356): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df4020a8e74 a2=a0042 a3=1a4 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492597.003:73356): cwd="/home/stas/dev/c++/jetpath"
-type=SYSCALL msg=audit(1754492597.003:73357): arch=c000003e syscall=257 success=yes exit=164 a0=ffffff9c a1=3df400e407d8 a2=a0042 a3=1a4 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 com
-m="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=PATH msg=audit(1754492597.003:73356): item=0 name="/home/stas/.config/Code/User/globalStorage/" inode=6293569 dev=08:02 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=CWD msg=audit(1754492597.003:73357): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492597.003:73356): item=1 name="/home/stas/.config/Code/User/globalStorage/state.vscdb-journal" inode=6301054 dev=08:02 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PATH msg=audit(1754492597.003:73357): item=0 name="/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/" inode=6319068 dev=08:02 mode=040775 ouid=1000 ogid=1000 rdev=00:00 name
-type=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492597.003:73356): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=PATH msg=audit(1754492597.003:73357): item=1 name="/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal" inode=6301067 dev=08:02 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492597.003:73357): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492597.012:73359): arch=c000003e syscall=87 success=yes exit=0 a0=3df4020a8e74 a1=3df4020a8e74 a2=0 a3=3df4021bea40 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="sta
-s" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=SYSCALL msg=audit(1754492597.012:73358): arch=c000003e syscall=87 success=yes exit=0 a0=3df400e407d8 a1=3df400e407d8 a2=0 a3=3df40213a148 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492597.012:73359): cwd="/home/stas/dev/c++/jetpath"
-type=CWD msg=audit(1754492597.012:73358): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492597.012:73359): item=0 name="/home/stas/.config/Code/User/globalStorage/" inode=6293569 dev=08:02 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PATH msg=audit(1754492597.012:73359): item=1 name="/home/stas/.co
-nfig/Code/User/globalStorage/state.vscdb-journal" inode=6301054 dev=08:02 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PATH msg=audit(1754492597.012:73358): item=0 name="/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/" inode=6319068 dev=08:02 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492597.012:73359): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=PATH msg=audit(1754492597.012:73358): item=1 name="/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal" inode=6301067 dev=08:02 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492597.012:73358): proctitle=2F7573722F73686172652F636F64652F636F64650
-02E
-type=SYSCALL msg=audit(1754492598.607:73360): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df402136dc0 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492598.607:73360): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492598.607:73360): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492598.607:73360): item=1 name="/dev/shm/.org.chromium.Chromium.9dOrtP" inode=9480 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492598.607:73360): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492598.608:73361): arch=c000003e syscall=87 success=yes exit=0 a0=3df402136dc0 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492598.608:73361): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492598.608:73361): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492598.608:73361): item=1 name="/dev/shm/.org.chromium.Chromium.9dOrtP" inode=9480 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=0
-0:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492598.608:73361): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492598.943:73362): arch=c000003e syscall=257 success=yes exit=20 a0=ffffff9c a1=d04000cba40 a2=c2 a3=180 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492598.943:73362): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492598.943:73362): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492598.943:73362): item=1 name
-="/dev/shm/.org.chromium.Chromium.62Vusl" inode=9481 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492598.943:73362): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492598.944:73363): arch=c000003e syscall=87 success=yes exit=0 a0=d04000cba40 a1=ffffffff a2=0 a3=0 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492598.944:73
-363): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492598.944:73363): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492598.944:73363): item=1 name="/dev/shm/.org.chromium.Chromium.62Vusl" inode=9481 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492598.944:73363): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492601.472:73364): arch=c000003e syscall=257 success=yes exit=20 a0=ffffff9c a1=d04001c3400 a2=c2 a3=180 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492601.472:73364): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492601.472:73364): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492601.472:73364): item=1 name="/dev/shm/.org.chromium.Chromium.3ePst0" inode=9482 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-t
-ype=PROCTITLE msg=audit(1754492601.472:73364): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492601.473:73365): arch=c000003e syscall=87 success=yes exit=0 a0=d04001c3400 a1=ffffffff a2=0 a3=0 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492601.473:73365): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492601.473:73365): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_f
-e=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492601.473:73365): item=1 name="/dev/shm/.org.chromium.Chromium.3ePst0" inode=9482 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492601.473:73365): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492602.150:73366): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df4020a8e74 a2=a0042 a3=1a4 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492602.150:73366): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492602.150:73366): item=0 name="/home/stas/.config/Code/User/globalStorage/" inode=6293569 dev=08:02 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PATH msg=audit(1754492602.150:73366): item=1 name="/home/stas/.config/Code/User/globalStorage/state.vscdb-journal" inode=6301054 dev=08:02 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 c
-ap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492602.150:73366): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492602.166:73367): arch=c000003e syscall=87 success=yes exit=0 a0=3df4020a8e74 a1=3df4020a8e74 a2=0 a3=3df402207440 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492602.166:73367): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492602.166:73367): item=0 name="/home/stas/.config/Code/User/globalStorage/" inode=6293569 dev=08:02 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PATH msg=audit(1754492602.166:73367)
-: item=1 name="/home/stas/.config/Code/User/globalStorage/state.vscdb-journal" inode=6301054 dev=08:02 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492602.166:73367): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492602.203:73368): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df4020199c0 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492602.203:73368): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492602.203:73368): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 na
-metype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492602.203:73368): item=1 name="/dev/shm/.org.chromium.Chromium.FN9c6g" inode=9483 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492602.203:73368): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492602.203:73369): arch=c000003e syscall=87 success=yes exit=0 a0=3df4020199c0 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492602.203:73369): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(17544926
-02.203:73369): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492602.203:73369): item=1 name="/dev/shm/.org.chromium.Chromium.FN9c6g" inode=9483 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492602.203:73369): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492602.203:73370): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df4020199c0 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492602.203:73370): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492602.203:73370): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492602.203:73370): item=1 name="/dev/shm/.org.chromium.Chromium.C9b9Up" inode=9484 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492602.203:73370): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492602.203:73371): arch=c000003e syscall=87 success=yes exit=0 a0=3df4020199c0 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas"
- UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492602.203:73371): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492602.203:73371): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492602.203:73371): item=1 name="/dev/shm/.org.chromium.Chromium.C9b9Up" inode=9484 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492602.203:73371): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492602.204:73372): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df4020199c0 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_I
-OThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492602.204:73372): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492602.204:73372): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492602.204:73372): item=1 name="/dev/shm/.org.chromium.Chromium.gWgtyw" inode=9485 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492602.204:73372): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492602.204:73373): arch=c000003e syscall=87 success=yes exit=0 a0=3df4020199c0 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=
-1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492602.204:73373): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492602.204:73373): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492602.204:73373): item=1 name="/dev/shm/.org.chromium.Chromium.gWgtyw" inode=9485 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492602.204:73373): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492602.204:73374): arch=c000003e syscall=257 success=ye
-s exit=140 a0=ffffff9c a1=3df4020199c0 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492602.204:73374): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492602.204:73374): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492602.204:73374): item=1 name="/dev/shm/.org.chromium.Chromium.berQhc" inode=9486 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492602.204:73374): proctitle=2F7573722F73686172652F6
-36F64652F636F6465002E
-type=SYSCALL msg=audit(1754492602.205:73375): arch=c000003e syscall=87 success=yes exit=0 a0=3df4020199c0 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492602.205:73375): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492602.205:73375): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492602.205:73375): item=1 name="/dev/shm/.org.chromium.Chromium.berQhc" inode=9486 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="sta
-s" OGID="stas"
-type=PROCTITLE msg=audit(1754492602.205:73375): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492604.284:73376): arch=c000003e syscall=257 success=yes exit=20 a0=ffffff9c a1=d04001c0f80 a2=c2 a3=180 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492604.284:73376): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492604.284:73376): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492604.284:73376): item=1 name="/dev/shm/.org.chromium.Chromium.2mzOS8" inode=9487 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-t
-ype=PROCTITLE msg=audit(1754492604.284:73376): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492604.285:73377): arch=c000003e syscall=87 success=yes exit=0 a0=d04001c0f80 a1=ffffffff a2=0 a3=0 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492604.285:73377): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492604.285:73377): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_f
-e=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492604.285:73377): item=1 name="/dev/shm/.org.chromium.Chromium.2mzOS8" inode=9487 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492604.285:73377): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492606.155:73378): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df4020a8e74 a2=a0042 a3=1a4 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492606.155:73378): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492606.155:73378): item=0 name="/home/stas/.config/Code/User/globalStorage/" inode=6293569 dev=08:02 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PATH msg=audit(1754492606.155:73378): item=1 name="/home/stas/.config/Code/User/globalStorage/state.vscdb-journal" inode=6301054 dev=08:02 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 c
-ap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492606.155:73378): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492606.167:73379): arch=c000003e syscall=87 success=yes exit=0 a0=3df4020a8e74 a1=3df4020a8e74 a2=0 a3=3df402207440 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492606.167:73379): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492606.167:73379): item=0 name="/home/stas/.config/Code/User/globalStorage/" inode=6293569 dev=08:02 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PATH msg=audit(1754492606.167:73379)
-: item=1 name="/home/stas/.config/Code/User/globalStorage/state.vscdb-journal" inode=6301054 dev=08:02 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492606.167:73379): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492607.696:73380): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df40201a300 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492607.696:73380): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492607.696:73380): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492607.696:73380): item=1 name="/dev/shm/.org.chromium.Chromium.0BBEv0" inode=9488 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492607.696:73380): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492607.696:73381): arch=c000003e syscall=87 success=yes exit=0 a0=3df40201a300 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492607.696:73381): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492607.696:73381): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492607.696:73381): item=1 name="/dev/shm/.org.chromium.Chromium.0BBEv0" inode=9488 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=0
-0:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492607.696:73381): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492607.697:73382): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df40201a300 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492607.697:73382): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492607.697:73382): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492607.697:73382): item=1 na
-me="/dev/shm/.org.chromium.Chromium.3wgqgD" inode=9489 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492607.697:73382): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492607.697:73383): arch=c000003e syscall=87 success=yes exit=0 a0=3df40201a300 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492607.697:73383): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492607.697:73383): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_f
-ver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492607.697:73383): item=1 name="/dev/shm/.org.chromium.Chromium.3wgqgD" inode=9489 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492607.697:73383): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492607.697:73384): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df40201a300 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492607.697:73384): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492607.697:73384): item=0 name="/dev/shm/"
- inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492607.697:73384): item=1 name="/dev/shm/.org.chromium.Chromium.HgmN3c" inode=9490 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492607.697:73384): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492607.698:73385): arch=c000003e syscall=87 success=yes exit=0 a0=3df40201a300 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492607.698:73385): cwd
-="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492607.698:73385): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492607.698:73385): item=1 name="/dev/shm/.org.chromium.Chromium.HgmN3c" inode=9490 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492607.698:73385): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492608.180:73386): arch=c000003e syscall=257 success=yes exit=164 a0=ffffff9c a1=3df402194940 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492608.180:73386): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492608.180:73386): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492608.180:73386): item=1 name="/dev/shm/.org.chromium.Chromium.QyzcFs" inode=9491 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCT
-ITLE msg=audit(1754492608.180:73386): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492608.180:73387): arch=c000003e syscall=87 success=yes exit=0 a0=3df402194940 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492608.180:73387): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492608.180:73387): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492608.180:73387): item=1 name="/dev/shm/.org.chromium.Chromium.QyzcFs" inode=9491 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE c
-ap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492608.180:73387): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492609.290:73388): arch=c000003e syscall=257 success=yes exit=20 a0=ffffff9c a1=d04001f0e80 a2=c2 a3=180 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492609.290:73388): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492609.290:73388): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492609.290:73388): item=1 name="/dev/shm/.org.chromium.Chromium.SeOF47" inode=9492 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-t
-ype=PROCTITLE msg=audit(1754492609.290:73388): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492609.291:73389): arch=c000003e syscall=87 success=yes exit=0 a0=d04001f0e80 a1=ffffffff a2=0 a3=0 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492609.291:73389): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492609.291:73389): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_f
-e=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492609.291:73389): item=1 name="/dev/shm/.org.chromium.Chromium.SeOF47" inode=9492 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492609.291:73389): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492610.183:73390): arch=c000003e syscall=257 success=yes exit=164 a0=ffffff9c a1=3df40271ac00 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492610.183:73390): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492610.183:73390): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492610.183:73390): item=1 name="/dev/shm/.org.chromium.Chromium.kOBcxE" inode=9493 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCT
-ITLE msg=audit(1754492610.183:73390): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492610.184:73391): arch=c000003e syscall=87 success=yes exit=0 a0=3df40271ac00 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492610.184:73391): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492610.184:73391): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492610.184:73391): item=1 name="/dev/shm/.org.chromium.Chromium.kOBcxE" inode=9493 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE c
-ap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492610.184:73391): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492610.705:73392): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df402775940 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492610.705:73392): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492610.705:73392): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492610.705:73392): item=1 name="/dev/shm/.org.chro
-mium.Chromium.RsvsQy" inode=9494 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492610.705:73392): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492610.705:73393): arch=c000003e syscall=87 success=yes exit=0 a0=3df402775940 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492610.705:73393): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492610.705:73393): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OU
-ID="root" OGID="root"
-type=PATH msg=audit(1754492610.705:73393): item=1 name="/dev/shm/.org.chromium.Chromium.RsvsQy" inode=9494 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492610.705:73393): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492610.705:73394): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df402775940 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492610.705:73394): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492610.705:73394): item=0 name="/dev/shm/" inode=1 dev=00:1b mod
-e=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492610.705:73394): item=1 name="/dev/shm/.org.chromium.Chromium.b8wee0" inode=9495 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492610.705:73394): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492610.705:73395): arch=c000003e syscall=87 success=yes exit=0 a0=3df402775940 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492610.705:73395): cwd="/home/stas/dev/c++/j
-etpath"
-type=PATH msg=audit(1754492610.705:73395): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492610.705:73395): item=1 name="/dev/shm/.org.chromium.Chromium.b8wee0" inode=9495 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492610.705:73395): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492610.706:73396): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df402775940 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" 
-EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492610.706:73396): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492610.706:73396): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492610.706:73396): item=1 name="/dev/shm/.org.chromium.Chromium.nt8mT7" inode=9496 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492610.706:73396): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492610.707:73397): arch=c000003e syscall=87 success=yes exit=0 a0=3df402775940 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"AR
-CH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492610.707:73397): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492610.707:73397): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492610.707:73397): item=1 name="/dev/shm/.org.chromium.Chromium.nt8mT7" inode=9496 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492610.707:73397): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492611.183:73398): arch=c000003e syscall=257 success=yes exit=164 a0=ffffff9c a1=3df402719900 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492611.183:73398): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492611.183:73398): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492611.183:73398): item=1 name="/dev/shm/.org.chromium.Chromium.bMY4wT" inode=9497 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCT
-ITLE msg=audit(1754492611.183:73398): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492611.183:73399): arch=c000003e syscall=87 success=yes exit=0 a0=3df402719900 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492611.183:73399): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492611.183:73399): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492611.183:73399): item=1 name="/dev/shm/.org.chromium.Chromium.bMY4wT" inode=9497 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE c
-ap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492611.183:73399): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492612.297:73400): arch=c000003e syscall=257 success=yes exit=20 a0=ffffff9c a1=d04001c34c0 a2=c2 a3=180 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492612.297:73400): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492612.297:73400): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492612.297:73400): item=1 name="/dev/shm/.org.chromium.Chromium.6ImE00" inode=9498 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-t
-ype=PROCTITLE msg=audit(1754492612.297:73400): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492612.298:73401): arch=c000003e syscall=87 success=yes exit=0 a0=d04001c34c0 a1=ffffffff a2=0 a3=0 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492612.298:73401): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492612.298:73401): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_f
-e=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492612.298:73401): item=1 name="/dev/shm/.org.chromium.Chromium.6ImE00" inode=9498 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492612.298:73401): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492612.932:73402): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df402777580 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="
-stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492612.932:73402): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492612.932:73402): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492612.932:73402): item=1 name="/dev/shm/.org.chromium.Chromium.NWEYwf" inode=9499 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492612.932:73402): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492612.932:73403): arch=c000003e syscall=87 success=yes exit=0 a0=3df402777580 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/shar
-e/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492612.932:73403): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492612.932:73403): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492612.932:73403): item=1 name="/dev/shm/.org.chromium.Chromium.NWEYwf" inode=9499 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492612.932:73403): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492612.933:73404): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df402777580 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid
-=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492612.933:73404): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492612.933:73404): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492612.933:73404): item=1 name="/dev/shm/.org.chromium.Chromium.4tbJHs" inode=9500 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492612.933:73404): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492612.933:73405): arch=c000003e syscall=87 success=yes exit=0 a0=3df402
-777580 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492612.933:73405): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492612.933:73405): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492612.933:73405): item=1 name="/dev/shm/.org.chromium.Chromium.4tbJHs" inode=9500 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492612.933:73405): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492613.185:73406): arch=c000003e syscall=257 success=yes exit=164 a0=ffffff9c a1=3df401fba140 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492613.185:73406): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492613.185:73406): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492613.185:73406): item=1 name="/dev/shm/.org.chromium.Chromium.g1dpWB" inode=9501 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCT
-ITLE msg=audit(1754492613.185:73406): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492613.186:73407): arch=c000003e syscall=87 success=yes exit=0 a0=3df401fba140 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492613.186:73407): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492613.186:73407): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492613.186:73407): item=1 name="/dev/shm/.org.chromium.Chromium.g1dpWB" inode=9501 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE c
-ap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492613.186:73407): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492613.233:73408): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df402775d00 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492613.233:73408): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492613.233:73408): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492613.233:73408): item=1 name="/dev/shm/.org.chro
-mium.Chromium.f0Q11r" inode=9502 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492613.233:73408): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492613.235:73409): arch=c000003e syscall=87 success=yes exit=0 a0=3df402775d00 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492613.235:73409): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492613.235:73409): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OU
-ID="root" OGID="root"
-type=PATH msg=audit(1754492613.235:73409): item=1 name="/dev/shm/.org.chromium.Chromium.f0Q11r" inode=9502 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492613.235:73409): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492613.496:73410): arch=c000003e syscall=257 success=yes exit=25 a0=ffffff9c a1=d04000cba40 a2=c2 a3=180 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492613.496:73410): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492613.496:73410): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=
-041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492613.496:73410): item=1 name="/dev/shm/.org.chromium.Chromium.DdOhIV" inode=9503 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492613.496:73410): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492613.497:73411): arch=c000003e syscall=87 success=yes exit=0 a0=d04000cba40 a1=ffffffff a2=0 a3=0 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="file
-watch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492613.497:73411): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492613.497:73411): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492613.497:73411): item=1 name="/dev/shm/.org.chromium.Chromium.DdOhIV" inode=9503 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492613.497:73411): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492614.149:73412): arch=c000003e syscall=257 success=yes exit=45 a0=ffffff9c a1=7df94f5fe538 a2=80241 a3=1b6 items=2 ppid=2296 pid=12210 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="glean.dispatche" exe="/snap/firefox/6565/usr/lib/firefox/firefox" subj=snap.firefox.firefox key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492614.149:73412): cwd="/home/stas"
-type=PATH msg=audit(1754492614.149:73412): item=0 name="/home/stas/snap/firefox/common/.mozilla/firefox/5uugzqmc.default/datareporting/glean/db/" inode=6292328 dev=08:02 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PATH msg=audit(1754492614.149:73412): item=1 name="/home/stas/snap/firefox/common/.mozilla/firefox/5uugzqmc.default/datareporting/gle
-an/db/data.safe.tmp" inode=6301054 dev=08:02 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492614.149:73412): proctitle="/snap/firefox/6565/usr/lib/firefox/firefox"
-type=SYSCALL msg=audit(1754492614.186:73413): arch=c000003e syscall=257 success=yes exit=164 a0=ffffff9c a1=3df4027189c0 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492614.186:73413): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492614.186:73413): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUI
-D="root" OGID="root"
-type=PATH msg=audit(1754492614.186:73413): item=1 name="/dev/shm/.org.chromium.Chromium.SASMc6" inode=9504 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492614.186:73413): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492614.186:73414): arch=c000003e syscall=87 success=yes exit=0 a0=3df4027189c0 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492614.186:73414): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492614.186:73414): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid
-=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492614.186:73414): item=1 name="/dev/shm/.org.chromium.Chromium.SASMc6" inode=9504 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492614.186:73414): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492615.185:73415): arch=c000003e syscall=257 success=yes exit=164 a0=ffffff9c a1=3df401fb8e40 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492615.185:73415): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492615.185:73415): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492615.185:73415): item=1 name="/dev/shm/.org.chromium.Chromium.HEUJog" inode=9505 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCT
-ITLE msg=audit(1754492615.185:73415): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492615.185:73416): arch=c000003e syscall=87 success=yes exit=0 a0=3df401fb8e40 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492615.185:73416): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492615.185:73416): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492615.185:73416): item=1 name="/dev/shm/.org.chromium.Chromium.HEUJog" inode=9505 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE c
-ap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492615.185:73416): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492615.300:73417): arch=c000003e syscall=257 success=yes exit=20 a0=ffffff9c a1=d04001f24c0 a2=c2 a3=180 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492615.300:73417): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492615.300:73417): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492615.300:73417): item=1 name="/dev/shm/.org.chromi
-um.Chromium.QooGHt" inode=9506 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492615.300:73417): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492615.301:73418): arch=c000003e syscall=87 success=yes exit=0 a0=d04001f24c0 a1=ffffffff a2=0 a3=0 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492615.301:73418): cwd="/home/stas/
-dev/c++/jetpath"
-type=PATH msg=audit(1754492615.301:73418): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492615.301:73418): item=1 name="/dev/shm/.org.chromium.Chromium.QooGHt" inode=9506 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492615.301:73418): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492616.188:73419): arch=c000003e syscall=257 success=yes exit=164 a0=ffffff9c a1=3df4015c81c0 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492616.188:73419): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492616.188:73419): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492616.188:73419): item=1 name="/dev/shm/.org.chromium.Chromium.8Necza" inode=9507 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCT
-ITLE msg=audit(1754492616.188:73419): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492616.189:73420): arch=c000003e syscall=87 success=yes exit=0 a0=3df4015c81c0 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492616.189:73420): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492616.189:73420): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492616.189:73420): item=1 name="/dev/shm/.org.chromium.Chromium.8Necza" inode=9507 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE c
-ap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492616.189:73420): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492617.185:73421): arch=c000003e syscall=257 success=yes exit=164 a0=ffffff9c a1=3df4024de400 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492617.185:73421): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492617.185:73421): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492617.185:73421): item=1 name="/dev/shm/.org.chromium.Chromium.1Pwept" inode=9508 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCT
-ITLE msg=audit(1754492617.185:73421): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492617.185:73422): arch=c000003e syscall=87 success=yes exit=0 a0=3df4024de400 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492617.185:73422): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492617.185:73422): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492617.185:73422): item=1 name="/dev/shm/.org.chromium.Chromium.1Pwept" inode=9508 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE c
-ap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492617.185:73422): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492618.466:73423): arch=c000003e syscall=257 success=yes exit=20 a0=ffffff9c a1=d04001c18c0 a2=c2 a3=180 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492618.466:73423): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492618.466:73423): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492618.466:73423): item=1 name="/dev/shm/.org.chromium.Chromium.Mi2lCp" inode=9509 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-t
-ype=PROCTITLE msg=audit(1754492618.466:73423): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492618.466:73424): arch=c000003e syscall=87 success=yes exit=0 a0=d04001c18c0 a1=ffffffff a2=0 a3=0 items=2 ppid=3149 pid=3239 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_ChildIOT" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492618.466:73424): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492618.466:73424): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_f
-e=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492618.466:73424): item=1 name="/dev/shm/.org.chromium.Chromium.Mi2lCp" inode=9509 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492618.466:73424): proctitle=2F70726F632F73656C662F657865002D2D747970653D7574696C697479002D2D7574696C6974792D7375622D747970653D6E6574776F726B2E6D6F6A6F6D2E4E6574776F726B53657276696365002D2D6C616E673D656E2D5553002D2D736572766963652D73616E64626F782D747970653D6E6F6E65002D2D63726173687061
-type=SYSCALL msg=audit(1754492619.189:73425): arch=c000003e syscall=257 success=yes exit=164 a0=ffffff9c a1=3df402137fc0 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492619.189:73425): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492619.189:73425): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492619.189:73425): item=1 name="/dev/shm/.org.chromium.Chromium.vGO2Ne" inode=9510 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCT
-ITLE msg=audit(1754492619.189:73425): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492619.189:73426): arch=c000003e syscall=87 success=yes exit=0 a0=3df402137fc0 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492619.189:73426): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492619.189:73426): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492619.189:73426): item=1 name="/dev/shm/.org.chromium.Chromium.vGO2Ne" inode=9510 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE c
-ap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492619.189:73426): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492620.871:73427): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df402774b80 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492620.871:73427): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492620.871:73427): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492620.871:73427): item=1 name="/dev/shm/.org.chromium.Chromium.91CQzS" inode=9511 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492620.871:73427): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492620.871:73428): arch=c000003e syscall=87 success=yes exit=0 a0=3df402774b80 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492620.871:73428): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492620.871:73428): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492620.871:73428): item=1 name="/dev/shm/.org.chromium.Chromium.91CQzS" inode=9511 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=0
-0:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492620.871:73428): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492620.872:73429): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df402774b80 a2=c2 a3=180 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=openat AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492620.872:73429): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492620.872:73429): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492620.872:73429): item=1 na
-me="/dev/shm/.org.chromium.Chromium.LsiwBY" inode=9512 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492620.872:73429): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492620.872:73430): arch=c000003e syscall=87 success=yes exit=0 a0=3df402774b80 a1=ffffffff a2=0 a3=0 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="Chrome_IOThread" exe="/usr/share/code/code" subj=vscode key="filewatch"ARCH=x86_64 SYSCALL=unlink AUID="stas" UID="stas" GID="stas" EUID="stas" SUID="stas" FSUID="stas" EGID="stas" SGID="stas" FSGID="stas"
-type=CWD msg=audit(1754492620.872:73430): cwd="/home/stas/dev/c++/jetpath"
-type=PATH msg=audit(1754492620.872:73430): item=0 name="/dev/shm/" inode=1 dev=00:1b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_f
-ver=0 cap_frootid=0OUID="root" OGID="root"
-type=PATH msg=audit(1754492620.872:73430): item=1 name="/dev/shm/.org.chromium.Chromium.LsiwBY" inode=9512 dev=00:1b mode=0100600 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0OUID="stas" OGID="stas"
-type=PROCTITLE msg=audit(1754492620.872:73430): proctitle=2F7573722F73686172652F636F64652F636F6465002E
-type=SYSCALL msg=audit(1754492620.977:73431): arch=c000003e syscall=257 success=yes exit=140 a0=ffffff9c a1=3df4020a8e74 a2=a0042 a3=1a4 items=2 ppid=2039 pid=3149 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="code" exe="/usr/share/code/code" subj=vscode key="createwatch"ARCH=x86_64 SYSCALL=op
+"../tests/testAssets/testLog.txt;CREATE;
+"/dev/shm/.org.chromium.Chromium.TicEJM;CREATE;
+"/dev/shm/.org.chromium.Chromium.TicEJM;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.wwM71H;CREATE;
+"/dev/shm/.org.chromium.Chromium.wwM71H;DELETE;
+"/dev/shm/.org.chromium.Chromium.dJ5Ega;CREATE;
+"/dev/shm/.org.chromium.Chromium.dJ5Ega;DELETE;
+"/dev/shm/.org.chromium.Chromium.NXpfTv;CREATE;
+"/dev/shm/.org.chromium.Chromium.NXpfTv;DELETE;
+"/dev/shm/.org.chromium.Chromium.uMEkbi;CREATE;
+"/dev/shm/.org.chromium.Chromium.uMEkbi;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.AaH46C;CREATE;
+"/dev/shm/.org.chromium.Chromium.AaH46C;DELETE;
+"/home/stas/.config/Code/User/globalStorage/state.vscdb-journal;DELETE;
+"/dev/shm/.org.chromium.Chromium.B2nOEF;CREATE;
+"/dev/shm/.org.chromium.Chromium.B2nOEF;DELETE;
+"/dev/shm/.org.chromium.Chromium.h5DCwv;CREATE;
+"/dev/shm/.org.chromium.Chromium.h5DCwv;DELETE;
+"/dev/shm/.org.chromium.Chromium.MN4O4i;CREATE;
+"/dev/shm/.org.chromium.Chromium.MN4O4i;DELETE;
+"/dev/shm/.org.chromium.Chromium.DDvPjz;CREATE;
+"/dev/shm/.org.chromium.Chromium.DDvPjz;DELETE;
+"/dev/shm/.org.chromium.Chromium.VEAqUM;CREATE;
+"/dev/shm/.org.chromium.Chromium.VEAqUM;DELETE;
+"/dev/shm/.org.chromium.Chromium.8Ro2tT;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.FYCUoj;DELETE;
+"/dev/shm/.org.chromium.Chromium.v0tg8n;CREATE;
+"/dev/shm/.org.chromium.Chromium.v0tg8n;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.q4FCgt;CREATE;
+"/dev/shm/.org.chromium.Chromium.q4FCgt;DELETE;
+"/dev/shm/.org.chromium.Chromium.mcrg2F;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.UuxOAk;DELETE;
+"/dev/shm/.org.chromium.Chromium.S2YHhR;CREATE;
+"/dev/shm/.org.chromium.Chromium.S2YHhR;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.izf8H8;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.izf8H8;DELETE;"/dev/shm/
+"/home/stas/snap/firefox/common/.mozilla/firefox/5uugzqmc.default/datareporting/glean/db/data.safe.tmp;CREATE;
+"/dev/shm/.org.chromium.Chromium.sSxXCX;CREATE;
+"/dev/shm/.org.chromium.Chromium.sSxXCX;DELETE;
+"/dev/shm/.org.chromium.Chromium.RdSalC;CREATE;
+"/dev/shm/.org.chromium.Chromium.RdSalC;DELETE;
+"/dev/shm/.org.chromium.Chromium.FvAZHZ;CREATE;
+"/dev/shm/.org.chromium.Chromium.FvAZHZ;DELETE;
+"/dev/shm/.org.chromium.Chromium.7bX6ni;CREATE;
+"/dev/shm/.org.chromium.Chromium.7bX6ni;DELETE;
+"/dev/shm/.org.chromium.Chromium.Zs1TDW;CREATE;
+"/dev/shm/.org.chromium.Chromium.Zs1TDW;DELETE;
+"/dev/shm/.org.chromium.Chromium.SXzleW;CREATE;
+"/dev/shm/.org.chromium.Chromium.SXzleW;DELETE;
+"/dev/shm/.org.chromium.Chromium.If3Kog;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.QJ0KzI;DELETE;
+"/dev/shm/.org.chromium.Chromium.LpIpJp;CREATE;
+"/dev/shm/.org.chromium.Chromium.LpIpJp;DELETE;
+"/dev/shm/.org.chromium.Chromium.vsnQN4;DELETE;
+"/dev/shm/.org.chromium.Chromium.MipwEl;CREATE;
+"/dev/shm/.org.chromium.Chromium.MipwEl;DELETE;
+"/dev/shm/.org.chromium.Chromium.SRIMSs;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.1uOpHI;DELETE;
+"/dev/shm/.org.chromium.Chromium.SYIlGg;CREATE;
+"/dev/shm/.org.chromium.Chromium.SYIlGg;DELETE;
+"/dev/shm/.org.chromium.Chromium.6fjGSr;CREATE;
+"/dev/shm/.org.chromium.Chromium.6fjGSr;DELETE;
+"/dev/shm/.org.chromium.Chromium.fJaGBs;CREATE;
+"/dev/shm/.org.chromium.Chromium.fJaGBs;DELETE;
+"/dev/shm/.org.chromium.Chromium.HLblrw;CREATE;
+"/dev/shm/.org.chromium.Chromium.HLblrw;DELETE;
+"/dev/shm/.org.chromium.Chromium.9DBCxR;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.e5sBwa;DELETE;
+"/dev/shm/.org.chromium.Chromium.JY6tTQ;CREATE;
+"/dev/shm/.org.chromium.Chromium.JY6tTQ;DELETE;"/dev/shm/
+"/home/stas/.config/Code/User/globalStorage/state.vscdb-journal;CREATE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;CREATE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;DELETE;
+"/home/stas/.config/Code/User/globalStorage/state.vscdb-journal;DELETE;
+"/dev/shm/.org.chromium.Chromium.wZ9DXr;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.wZ9DXr;DELETE;
+"/dev/shm/.org.chromium.Chromium.mCm9KQ;CREATE;
+"/dev/shm/.org.chromium.Chromium.mCm9KQ;DELETE;
+"/dev/shm/.org.chromium.Chromium.Yg9ov1;CREATE;
+"/dev/shm/.org.chromium.Chromium.Yg9ov1;DELETE;
+"/dev/shm/.org.chromium.Chromium.OFUMzg;CREATE;
+"/dev/shm/.org.chromium.Chromium.OFUMzg;DELETE;
+"/dev/shm/.org.chromium.Chromium.kc6Trw;CREATE;
+"/dev/shm/.org.chromium.Chromium.kc6Trw;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.HB2Tbm;CREATE;
+"/dev/shm/.org.chromium.Chromium.HB2Tbm;DELETE;
+"/dev/shm/.org.chromium.Chromium.lwdgIl;CREATE;
+"/dev/shm/.org.chromium.Chromium.lwdgIl;DELETE;
+"/dev/shm/.org.chromium.Chromium.hrL0IS;CREATE;
+"/dev/shm/.org.chromium.Chromium.xWP2Rw;CREATE;
+"/dev/shm/.org.chromium.Chromium.xWP2Rw;DELETE;
+"/dev/shm/.org.chromium.Chromium.UDYiON;CREATE;
+"/dev/shm/.org.chromium.Chromium.UDYiON;DELETE;
+"/dev/shm/.org.chromium.Chromium.3Ve0Zn;CREATE;
+"/dev/shm/.org.chromium.Chromium.3Ve0Zn;DELETE;
+"/dev/shm/.org.chromium.Chromium.I2IQ5e;CREATE;"/dev/shm/
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;CREATE;
+"/dev/shm/.org.chromium.Chromium.ZqXe11;CREATE;
+"/dev/shm/.org.chromium.Chromium.ZqXe11;DELETE;"/dev/shm/
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;DELETE;"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/
+"/dev/shm/.org.chromium.Chromium.CaL6oM;CREATE;
+"/dev/shm/.org.chromium.Chromium.CaL6oM;DELETE;
+"/dev/shm/.org.chromium.Chromium.5GL90P;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.oP5WqR;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.rylhzS;CREATE;
+"/dev/shm/.org.chromium.Chromium.rylhzS;DELETE;
+"/dev/shm/.org.chromium.Chromium.8vBkh1;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.PrFAuY;DELETE;
+"/dev/shm/.org.chromium.Chromium.DMfEKT;CREATE;
+"/dev/shm/.org.chromium.Chromium.DMfEKT;DELETE;
+"/dev/shm/.org.chromium.Chromium.D4LD97;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.gVRSH7;DELETE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;CREATE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;DELETE;"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/
+"/home/stas/.config/Code/User/globalStorage/state.vscdb-journal;CREATE;
+"/home/stas/.config/Code/User/globalStorage/state.vscdb-journal;DELETE;
+"/dev/shm/.org.chromium.Chromium.EN3ox0;CREATE;
+"/dev/shm/.org.chromium.Chromium.EN3ox0;DELETE;
+"/dev/shm/.org.chromium.Chromium.L50I2o;CREATE;
+"/dev/shm/.org.chromium.Chromium.L50I2o;DELETE;
+"test1.txt;CREATE;
+"test1.txt;DELETE;
+"/dev/shm/.org.chromium.Chromium.8bvNDi;CREATE;
+"/dev/shm/.org.chromium.Chromium.8bvNDi;DELETE;
+"/dev/shm/.org.chromium.Chromium.aPvvTi;CREATE;
+"/dev/shm/.org.chromium.Chromium.aPvvTi;DELETE;
+"/dev/shm/.org.chromium.Chromium.GvTZSq;CREATE;
+"/dev/shm/.org.chromium.Chromium.GvTZSq;DELETE;
+"/dev/shm/.org.chromium.Chromium.r4RN6g;CREATE;
+"/dev/shm/.org.chromium.Chromium.r4RN6g;DELETE;
+"/dev/shm/.org.chromium.Chromium.GC1bM0;CREATE;
+"/dev/shm/.org.chromium.Chromium.GC1bM0;DELETE;
+"/dev/shm/.org.chromium.Chromium.RtjBZx;CREATE;
+"/dev/shm/.org.chromium.Chromium.RtjBZx;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.XhSoUJ;CREATE;
+"/dev/shm/.org.chromium.Chromium.XhSoUJ;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.kEXKX1;CREATE;
+"/dev/shm/.org.chromium.Chromium.kEXKX1;DELETE;
+"/dev/shm/.org.chromium.Chromium.ayK9Mm;CREATE;
+"/dev/shm/.org.chromium.Chromium.ayK9Mm;DELETE;
+"/dev/shm/.org.chromium.Chromium.86T3tw;CREATE;
+"/dev/shm/.org.chromium.Chromium.86T3tw;DELETE;
+"/dev/shm/.org.chromium.Chromium.ouL7AE;CREATE;
+"/dev/shm/.org.chromium.Chromium.ouL7AE;DELETE;
+"/dev/shm/.org.chromium.Chromium.u3TQ9N;CREATE;
+"/dev/shm/.org.chromium.Chromium.u3TQ9N;DELETE;
+"/dev/shm/.org.chromium.Chromium.AYADSR;CREATE;
+"/dev/shm/.org.chromium.Chromium.AYADSR;DELETE;
+"/dev/shm/.org.chromium.Chromium.ScOvJB;CREATE;
+"/dev/shm/.org.chromium.Chromium.XkpItJ;CREATE;
+"/dev/shm/.org.chromium.Chromium.H0gqFV;CREATE;
+"/dev/shm/.org.chromium.Chromium.H0gqFV;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.NTLcwS;CREATE;
+"/dev/shm/.org.chromium.Chromium.NTLcwS;DELETE;
+"/dev/shm/.org.chromium.Chromium.V11A9a;CREATE;
+"/dev/shm/.org.chromium.Chromium.V11A9a;DELETE;
+"/dev/shm/.org.chromium.Chromium.kjFT8m;CREATE;
+"/dev/shm/.org.chromium.Chromium.kjFT8m;DELETE;
+"/dev/shm/.org.chromium.Chromium.TkGUzd;CREATE;
+"/dev/shm/.org.chromium.Chromium.TkGUzd;DELETE;
+"/dev/shm/.org.chromium.Chromium.1S75Rf;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.sepOnB;DELETE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;CREATE;
+"/dev/shm/.org.chromium.Chromium.oSWLEF;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.oSWLEF;DELETE;"/dev/shm/
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;DELETE;"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/
+"/dev/shm/.org.chromium.Chromium.qnFg08;CREATE;
+"/dev/shm/.org.chromium.Chromium.qnFg08;DELETE;
+"/dev/shm/.org.chromium.Chromium.k2qi6n;CREATE;
+"/dev/shm/.org.chromium.Chromium.k2qi6n;DELETE;
+"/home/stas/.config/Code/User/globalStorage/state.vscdb-journal;CREATE;
+"/home/stas/.config/Code/User/globalStorage/state.vscdb-journal;DELETE;
+"/dev/shm/.org.chromium.Chromium.OjFvSj;CREATE;"/dev/shm/
+"/home/stas/.local/state/wireplumber/restore-stream.X763A3;CREATE;
+"/home/stas/.local/share/gvfs-metadata/home.NWVWA3;CREATE;
+"/home/stas/.local/share/gvfs-metadata/home-2d4be86d.log.JNXWA3;CREATE;
+"/home/stas/.local/share/gvfs-metadata/home-fe0b5222.log;DELETE;
+"/dev/shm/.org.chromium.Chromium.F0n8tu;CREATE;
+"/dev/shm/.org.chromium.Chromium.F0n8tu;DELETE;
+"/dev/shm/.org.chromium.Chromium.uGGvHL;CREATE;
+"/dev/shm/.org.chromium.Chromium.uGGvHL;DELETE;
+"/dev/shm/.org.chromium.Chromium.sHsqYf;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.wWoAMO;DELETE;
+"/dev/shm/.org.chromium.Chromium.54ef01;CREATE;
+"/dev/shm/.org.chromium.Chromium.54ef01;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.Wgyl5v;CREATE;
+"/dev/shm/.org.chromium.Chromium.Wgyl5v;DELETE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;CREATE;
+"/dev/shm/.org.chromium.Chromium.trenKl;CREATE;
+"/dev/shm/.org.chromium.Chromium.trenKl;DELETE;
+"/dev/shm/.org.chromium.Chromium.kt3VIJ;CREATE;
+"/dev/shm/.org.chromium.Chromium.kt3VIJ;DELETE;
+"/dev/shm/.org.chromium.Chromium.d1YIAA;CREATE;
+"/dev/shm/.org.chromium.Chromium.d1YIAA;DELETE;
+"/dev/shm/.org.chromium.Chromium.67ZwId;CREATE;
+"/dev/shm/.org.chromium.Chromium.67ZwId;DELETE;
+"/dev/shm/.org.chromium.Chromium.tzAYHn;CREATE;
+"/dev/shm/.org.chromium.Chromium.tzAYHn;DELETE;
+"/dev/shm/.org.chromium.Chromium.qkuydw;CREATE;
+"/dev/shm/.org.chromium.Chromium.qkuydw;DELETE;
+"/dev/shm/.org.chromium.Chromium.U7d6r6;CREATE;
+"/dev/shm/.org.chromium.Chromium.U7d6r6;DELETE;
+"/dev/shm/.org.chromium.Chromium.ktwZCL;CREATE;
+"/dev/shm/.org.chromium.Chromium.ktwZCL;DELETE;
+"/dev/shm/.org.chromium.Chromium.OJKqzx;CREATE;
+"/dev/shm/.org.chromium.Chromium.OJKqzx;DELETE;
+"/home/stas/.local/state/wireplumber/restore-stream.NNC6A3;CREATE;
+"/dev/shm/.org.chromium.Chromium.YDi1wB;CREATE;
+"/dev/shm/.org.chromium.Chromium.YDi1wB;DELETE;
+"/dev/shm/.org.chromium.Chromium.bRvTIH;CREATE;
+"/dev/shm/.org.chromium.Chromium.bRvTIH;DELETE;
+"/dev/shm/.org.chromium.Chromium.vkCKmJ;CREATE;
+"/dev/shm/.org.chromium.Chromium.vkCKmJ;DELETE;
+"/dev/shm/.org.chromium.Chromium.QblTPx;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.6fFON8;DELETE;
+"/dev/shm/.org.chromium.Chromium.ZlwJTv;CREATE;
+"/dev/shm/.org.chromium.Chromium.ZlwJTv;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.eruxEg;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.eruxEg;DELETE;"/dev/shm/
+"/home/stas/.local/state/wireplumber/restore-stream.XEPTA3;CREATE;
+"/home/stas/.local/state/wireplumber/restore-stream.AIJBB3;CREATE;
+"/home/stas/.local/state/wireplumber/restore-stream.RW95A3;CREATE;
+"/home/stas/.local/state/wireplumber/restore-stream.WHGSA3;CREATE;
+"/home/stas/.local/state/wireplumber/restore-stream.B7GUA3;CREATE;
+"/dev/shm/.org.chromium.Chromium.1vWZBS;CREATE;
+"/dev/shm/.org.chromium.Chromium.1vWZBS;DELETE;
+"/dev/shm/.org.chromium.Chromium.xBnVXF;CREATE;
+"/dev/shm/.org.chromium.Chromium.xBnVXF;DELETE;
+"/dev/shm/.org.chromium.Chromium.sHGZwI;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.sHGZwI;DELETE;
+"/dev/shm/.org.chromium.Chromium.b4wNZf;CREATE;
+"/dev/shm/.org.chromium.Chromium.b4wNZf;DELETE;
+"/dev/shm/.org.chromium.Chromium.T3Jp1p;CREATE;
+"/dev/shm/.org.chromium.Chromium.T3Jp1p;DELETE;
+"/home/stas/.config/Code/User/globalStorage/state.vscdb-journal;CREATE;
+"/home/stas/.config/Code/User/globalStorage/state.vscdb-journal;DELETE;
+"/dev/shm/.org.chromium.Chromium.ZyJtR0;CREATE;
+"/dev/shm/.org.chromium.Chromium.ZyJtR0;DELETE;
+"/dev/shm/.org.chromium.Chromium.1hNNYD;CREATE;
+"/dev/shm/.org.chromium.Chromium.1hNNYD;DELETE;
+"/dev/shm/.org.chromium.Chromium.Piv9vR;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.Piv9vR;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.3YJmSR;CREATE;
+"/dev/shm/.org.chromium.Chromium.0Ye9uA;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.TgDeok;DELETE;
+"/dev/shm/.org.chromium.Chromium.jynHZb;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.UPzdS6;CREATE;
+"/dev/shm/.org.chromium.Chromium.UPzdS6;DELETE;
+"/dev/shm/.org.chromium.Chromium.hikKPF;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.JAMUyi;DELETE;
+"/dev/shm/.org.chromium.Chromium.wPi1nU;CREATE;
+"/dev/shm/.org.chromium.Chromium.wPi1nU;DELETE;
+"/dev/shm/.org.chromium.Chromium.fISDeR;CREATE;
+"/dev/shm/.org.chromium.Chromium.fISDeR;DELETE;
+"/dev/shm/.org.chromium.Chromium.iZbEuy;CREATE;
+"/dev/shm/.org.chromium.Chromium.iZbEuy;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.ambLU1;CREATE;
+"/dev/shm/.org.chromium.Chromium.ambLU1;DELETE;
+"/dev/shm/.org.chromium.Chromium.42SXcs;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.MRmCt8;DELETE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;CREATE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;DELETE;
+"/dev/shm/.org.chromium.Chromium.Mdtxf8;CREATE;
+"/dev/shm/.org.chromium.Chromium.Mdtxf8;DELETE;
+"/dev/shm/.org.chromium.Chromium.vaarYc;CREATE;
+"/dev/shm/.org.chromium.Chromium.vaarYc;DELETE;
+"/dev/shm/.org.chromium.Chromium.vXFGke;CREATE;
+"/dev/shm/.org.chromium.Chromium.vXFGke;DELETE;
+"/dev/shm/.org.chromium.Chromium.bcrYjb;CREATE;
+"/dev/shm/.org.chromium.Chromium.bcrYjb;DELETE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;CREATE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;DELETE;
+"/dev/shm/.org.chromium.Chromium.L9NvkG;DELETE;
+"/dev/shm/.org.chromium.Chromium.Mauy2J;CREATE;
+"/dev/shm/.org.chromium.Chromium.Mauy2J;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.XPNVA1;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.oC9VK7;DELETE;
+"/dev/shm/.org.chromium.Chromium.7bYfWS;CREATE;
+"/dev/shm/.org.chromium.Chromium.7bYfWS;DELETE;
+"/dev/shm/.org.chromium.Chromium.z8GBSv;CREATE;
+"/dev/shm/.org.chromium.Chromium.z8GBSv;DELETE;
+"/dev/shm/.org.chromium.Chromium.pcHSxx;CREATE;
+"/dev/shm/.org.chromium.Chromium.pcHSxx;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.z84feq;CREATE;
+"/dev/shm/.org.chromium.Chromium.z84feq;DELETE;
+"/dev/shm/.org.chromium.Chromium.hYLFl6;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.2bLti0;DELETE;
+"/dev/shm/.org.chromium.Chromium.da6O9l;CREATE;
+"/dev/shm/.org.chromium.Chromium.da6O9l;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.zwrwzl;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.SGXC3e;DELETE;
+"/dev/shm/.org.chromium.Chromium.Mnj6Aa;CREATE;
+"/dev/shm/.org.chromium.Chromium.Mnj6Aa;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.5bKz7g;CREATE;
+"/dev/shm/.org.chromium.Chromium.5bKz7g;DELETE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;CREATE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;DELETE;
+"/dev/shm/.org.chromium.Chromium.b6CISw;CREATE;
+"/dev/shm/.org.chromium.Chromium.b6CISw;DELETE;
+"/dev/shm/.org.chromium.Chromium.Uq1r3I;CREATE;
+"/dev/shm/.org.chromium.Chromium.Uq1r3I;DELETE;
+"/dev/shm/.org.chromium.Chromium.2hdI7Q;CREATE;
+"/dev/shm/.org.chromium.Chromium.2hdI7Q;DELETE;
+"/dev/shm/.org.chromium.Chromium.t5hjyF;CREATE;
+"/dev/shm/.org.chromium.Chromium.t5hjyF;DELETE;
+"/dev/shm/.org.chromium.Chromium.QhOIo3;CREATE;
+"/dev/shm/.org.chromium.Chromium.QhOIo3;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.9mdG8D;CREATE;
+"/dev/shm/.org.chromium.Chromium.9mdG8D;DELETE;
+"/dev/shm/.org.chromium.Chromium.ZYODKv;CREATE;
+"/dev/shm/.org.chromium.Chromium.ZYODKv;DELETE;
+"/dev/shm/.org.chromium.Chromium.0lSQBx;CREATE;
+"/dev/shm/.org.chromium.Chromium.0lSQBx;DELETE;
+"/dev/shm/.org.chromium.Chromium.8QlwGQ;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.2dKxGE;DELETE;
+"/dev/shm/.org.chromium.Chromium.wJzS7y;CREATE;
+"/dev/shm/.org.chromium.Chromium.wJzS7y;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.mmOPPt;CREATE;
+"/dev/shm/.org.chromium.Chromium.mmOPPt;DELETE;
+"/home/stas/.config/Code/User/globalStorage/state.vscdb-journal;CREATE;
+"/home/stas/.config/Code/User/globalStorage/state.vscdb-journal;DELETE;
+"/home/stas/.local/state/wireplumber/restore-stream.6YZTA3;CREATE;
+"/dev/shm/.org.chromium.Chromium.1aZZ1R;CREATE;
+"/dev/shm/.org.chromium.Chromium.1aZZ1R;DELETE;
+"/home/stas/.local/state/wireplumber/restore-stream.SJYUA3;CREATE;
+"/dev/shm/.org.chromium.Chromium.DRT8Ii;CREATE;
+"/dev/shm/.org.chromium.Chromium.DRT8Ii;DELETE;
+"/dev/shm/.org.chromium.Chromium.QdNLtx;CREATE;
+"/dev/shm/.org.chromium.Chromium.QdNLtx;DELETE;
+"/dev/shm/.org.chromium.Chromium.GWmuMC;CREATE;
+"/dev/shm/.org.chromium.Chromium.GWmuMC;DELETE;
+"/dev/shm/.org.chromium.Chromium.EwHuLk;CREATE;
+"/dev/shm/.org.chromium.Chromium.EwHuLk;DELETE;
+"/dev/shm/.org.chromium.Chromium.terbDF;CREATE;
+"/dev/shm/.org.chromium.Chromium.terbDF;DELETE;
+"/dev/shm/.org.chromium.Chromium.zM1V9s;CREATE;
+"/dev/shm/.org.chromium.Chromium.zM1V9s;DELETE;
+"/dev/shm/.org.chromium.Chromium.P6epNH;CREATE;
+"/dev/shm/.org.chromium.Chromium.P6epNH;DELETE;
+"/dev/shm/.org.chromium.Chromium.YBJ1Nr;CREATE;
+"/dev/shm/.org.chromium.Chromium.YBJ1Nr;DELETE;
+"/dev/shm/.org.chromium.Chromium.cubwph;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.cubwph;DELETE;
+"/dev/shm/.org.chromium.Chromium.3f4QgB;CREATE;
+"/dev/shm/.org.chromium.Chromium.3f4QgB;DELETE;
+"/dev/shm/.org.chromium.Chromium.U7flEL;CREATE;
+"/dev/shm/.org.chromium.Chromium.U7flEL;DELETE;
+"/dev/shm/.org.chromium.Chromium.8UAeWy;CREATE;
+"/dev/shm/.org.chromium.Chromium.8UAeWy;DELETE;
+"/dev/shm/.org.chromium.Chromium.aHfEJn;CREATE;
+"/dev/shm/.org.chromium.Chromium.aHfEJn;DELETE;
+"/dev/shm/.org.chromium.Chromium.5t2WFp;CREATE;
+"/dev/shm/.org.chromium.Chromium.5t2WFp;DELETE;
+"/dev/shm/.org.chromium.Chromium.brFt1P;CREATE;
+"/dev/shm/.org.chromium.Chromium.brFt1P;DELETE;
+"/dev/shm/.org.chromium.Chromium.lnduGJ;CREATE;
+"/dev/shm/.org.chromium.Chromium.lnduGJ;DELETE;
+"/dev/shm/.org.chromium.Chromium.hqQPfn;CREATE;
+"/dev/shm/.org.chromium.Chromium.hqQPfn;DELETE;
+"/dev/shm/.org.chromium.Chromium.WbGL76;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.ot8EvA;DELETE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;CREATE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;DELETE;"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/
+"/dev/shm/.org.chromium.Chromium.KQ6Ie8;CREATE;
+"/dev/shm/.org.chromium.Chromium.KQ6Ie8;DELETE;
+"/dev/shm/.org.chromium.Chromium.vrhQY0;CREATE;
+"/dev/shm/.org.chromium.Chromium.81dTMS;CREATE;
+"/dev/shm/.org.chromium.Chromium.81dTMS;DELETE;
+"/dev/shm/.org.chromium.Chromium.9bkw8m;CREATE;
+"/dev/shm/.org.chromium.Chromium.9bkw8m;DELETE;
+"/dev/shm/.org.chromium.Chromium.vl8kdm;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.vl8kdm;DELETE;
+"/dev/shm/.org.chromium.Chromium.hExUp5;CREATE;
+"/dev/shm/.org.chromium.Chromium.hExUp5;DELETE;
+"/dev/shm/.org.chromium.Chromium.qfPSgl;CREATE;
+"/dev/shm/.org.chromium.Chromium.qfPSgl;DELETE;
+"/dev/shm/.org.chromium.Chromium.3tc8ZR;CREATE;
+"/dev/shm/.org.chromium.Chromium.3tc8ZR;DELETE;
+"/dev/shm/.org.chromium.Chromium.ZqDnVR;CREATE;
+"/dev/shm/.org.chromium.Chromium.ZqDnVR;DELETE;
+"/dev/shm/.org.chromium.Chromium.Y9S7jX;CREATE;"/dev/shm/
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;CREATE;
+"/home/stas/.config/Code/User/workspaceStorage/c5365e81a81fb16d2eed235f100e37bc/state.vscdb-journal;DELETE;
+"/dev/shm/.org.chromium.Chromium.m6PPpI;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.m6PPpI;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.TFLpx2;CREATE;
+"/dev/shm/.org.chromium.Chromium.TFLpx2;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.OOmPLw;CREATE;
+"/dev/shm/.org.chromium.Chromium.OOmPLw;DELETE;
+"/dev/shm/.org.chromium.Chromium.tauoF8;CREATE;
+"/dev/shm/.org.chromium.Chromium.tauoF8;DELETE;
+"/dev/shm/.org.chromium.Chromium.0VEDd0;CREATE;
+"/dev/shm/.org.chromium.Chromium.0VEDd0;DELETE;
+"/home/stas/.local/share/gnome-shell/.goutputstream-UL75A3;CREATE;"/home/stas/.local/share/gnome-shell/
+"/dev/shm/.org.chromium.Chromium.GrR5uE;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.GrR5uE;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.Dn5A6c;CREATE;
+"/dev/shm/.org.chromium.Chromium.Dn5A6c;DELETE;
+"/dev/shm/.org.chromium.Chromium.1BzyIX;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.1BzyIX;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.jLKSAH;CREATE;
+"/dev/shm/.org.chromium.Chromium.jLKSAH;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.2VyQGS;CREATE;
+"/dev/shm/.org.chromium.Chromium.2VyQGS;DELETE;
+"/dev/shm/.org.chromium.Chromium.2kUkf0;CREATE;"/dev/shm/
+"/home/stas/.config/Code/User/globalStorage/state.vscdb-journal;CREATE;
+"/home/stas/.config/Code/User/globalStorage/state.vscdb-journal;DELETE;
+"/dev/shm/.org.chromium.Chromium.NjPqfv;CREATE;
+"/dev/shm/.org.chromium.Chromium.NjPqfv;DELETE;
+"/dev/shm/.org.chromium.Chromium.Ywznk2;CREATE;
+"/dev/shm/.org.chromium.Chromium.Ywznk2;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.mmPrds;CREATE;
+"/dev/shm/.org.chromium.Chromium.mmPrds;DELETE;
+"/dev/shm/.org.chromium.Chromium.n3TvHA;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.5n3MZr;CREATE;
+"/dev/shm/.org.chromium.Chromium.5n3MZr;DELETE;
+"/dev/shm/.org.chromium.Chromium.xCibwR;CREATE;
+"/dev/shm/.org.chromium.Chromium.xCibwR;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.Ni9f9I;CREATE;
+"/dev/shm/.org.chromium.Chromium.Ni9f9I;DELETE;
+"/dev/shm/.org.chromium.Chromium.RVZUPK;CREATE;
+"/dev/shm/.org.chromium.Chromium.RVZUPK;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.PMLVOn;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.PUnlkR;CREATE;
+"/dev/shm/.org.chromium.Chromium.PUnlkR;DELETE;
+"/dev/shm/.org.chromium.Chromium.KLCT4y;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.6uNAPW;CREATE;
+"/dev/shm/.org.chromium.Chromium.6uNAPW;DELETE;
+"/dev/shm/.org.chromium.Chromium.i8RArg;CREATE;
+"/dev/shm/.org.chromium.Chromium.i8RArg;DELETE;
+"/dev/shm/.org.chromium.Chromium.pGg4YU;CREATE;
+"/dev/shm/.org.chromium.Chromium.pGg4YU;DELETE;
+"/dev/shm/.org.chromium.Chromium.qelmcE;CREATE;
+"/dev/shm/.org.chromium.Chromium.qelmcE;DELETE;
+"/dev/shm/.org.chromium.Chromium.DUYvJT;CREATE;
+"/dev/shm/.org.chromium.Chromium.DUYvJT;DELETE;
+"/dev/shm/.org.chromium.Chromium.X2Hiw0;CREATE;
+"/dev/shm/.org.chromium.Chromium.X2Hiw0;DELETE;
+"/dev/shm/.org.chromium.Chromium.ixPUeH;CREATE;
+"/dev/shm/.org.chromium.Chromium.ixPUeH;DELETE;
+"/dev/shm/.org.chromium.Chromium.4uwqty;CREATE;
+"/dev/shm/.org.chromium.Chromium.4uwqty;DELETE;
+"/dev/shm/.org.chromium.Chromium.rWEVWR;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.hD3L69;CREATE;
+"/dev/shm/.org.chromium.Chromium.hD3L69;DELETE;
+"/dev/shm/.org.chromium.Chromium.4vE3mz;CREATE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.NYpGJU;CREATE;
+"/dev/shm/.org.chromium.Chromium.NYpGJU;DELETE;
+"/dev/shm/.org.chromium.Chromium.JAyCyY;CREATE;
+"/dev/shm/.org.chromium.Chromium.JAyCyY;DELETE;"/dev/shm/
+"/dev/shm/.org.chromium.Chromium.dnOv6i;CREATE;
+"/dev/shm/.org.chromium.Chromium.dnOv6i;DELETE;
+"/dev/shm/.org.chromium.Chromium.OirDcH;CREATE;
+"/dev/shm/.org.chromium.Chromium.OirDcH;DELETE;
+"/dev

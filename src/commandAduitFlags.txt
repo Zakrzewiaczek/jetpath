@@ -1,0 +1,3 @@
+sudo auditctl -a always,exit -F arch=b64 -S creat -S open -S unlink -S unlinkat -S mkdir -S rmdir -k filewatch
+
+sudo auditctl -a always,exit -F arch=b64 -S openat -F 'a2&0100' -k createwatch
